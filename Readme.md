@@ -4,7 +4,7 @@
 ## polling with for loop
 ```powershell
 #checking for the docker demon to restart and work!!
- For ($i=0; $i -le 10; $i++) {  docker ps; Start-Sleep -s 10}
+ For ($i=0; $i -le 100; $i++) {  cls; Write-Host "Try $i `n"; docker ps; Start-Sleep -s 10}
 ```
 ## scp, remote trasfer through ssh
 ```powershell
